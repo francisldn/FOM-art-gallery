@@ -56,6 +56,8 @@ For this project, 2 pages are created:
   * use max/min-width or max/min-height
   * use CSS flexbox and grid for responsive layout
   * use of subgrid to allow for children element to have slightly different grid layout or inherit parent layout
+
+* Use of ``@media`` queries to render layout for different screen sizes
 ### Continued development
 * Unable to render the color for the landing page heading - "Modern Art Gallery" in 2 different colors --> require feedback on how this can be achieved
 * Using typescript for the project
