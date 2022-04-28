@@ -7,7 +7,6 @@ This is a solution to the [Art gallery website challenge on Frontend Mentor](htt
 - [Frontend Mentor - Art gallery website solution](#frontend-mentor---art-gallery-website-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
-    - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -23,8 +22,6 @@ Users should be able to:
 - See hover states for all interactive elements throughout the site
   - this applies to the "location" component and social media icons.
 - **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
-
-### Screenshot
 
 ### Links
 
@@ -64,7 +61,6 @@ For this project, 2 pages are created:
 * Using typescript for the project
 
 ## Author
-
 - [Github](https://github.com/francisldn)
 - Frontend Mentor - [@francisldn](https://www.frontendmentor.io/profile/francisldn)
 - Twitter - [@francisldn22](https://www.twitter.com/yourusername)
