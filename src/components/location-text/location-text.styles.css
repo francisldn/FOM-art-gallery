@@ -1,0 +1,99 @@
+.location-container {
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+    max-height: 548px;
+    background-color: var(--black-color);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: flex-start;
+}
+
+.location-container .location-title {
+    grid-column: 2/5;
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: clamp(0.2rem, 2.5vw + 0.2rem, 70px);
+    margin-top: 104px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.location-container .address-title {
+    margin-top: 104px;
+    grid-column: 7/12;
+}
+
+.location-container h2 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: clamp(0.2rem, 3vw + 0.2rem, 36px);
+    color: var(--orange-color);
+}
+
+.address {
+    margin-top: 20px;
+    font-size: clamp(0.2rem, 2vw + 0.2rem, 22px);
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Outfit';
+}
+
+.address-text {
+    margin-top: 20px;
+    font-size: clamp(0.2rem, 2vw + 0.2rem, 22px);
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Outfit';
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 375px) {
+    .location-container {
+        display: grid;
+        grid-template-columns: subgrid;
+        grid-template-rows: repeat(12, minmax(8.33%, 41px));
+    }
+    .location-container .location-title {
+        margin-top: 0px;
+        grid-column: 2/12;
+    }
+    .location-title {
+        grid-row: 2/5;
+        margin-top: 0;
+        width: 100%;
+        align-self: center;
+    }
+    .location-title h1 {
+        font-size: clamp(2rem, 2.5vw + 3rem, 70px);
+    }
+    .location-container .address-title {
+        margin-top: 0px;
+        grid-column: 2/12;
+    }
+    .address-title {
+        line-height: 20px;
+        width: 100%;
+        grid-row: 3/-1;
+        align-self: center;
+    }
+    .address-title h2 {
+        font-size: clamp(1.5rem, 2.5vw + 1.0rem, 50px);
+    }
+    .address {
+        line-height: 20px;
+        font-size: clamp(0.8rem, 1.0vw + 0.7rem, 22px);
+    }
+    .address-text {
+        line-height: 20px;
+        font-size: clamp(0.8rem, 1.0vw + 0.7rem, 22px);
+    }
+}

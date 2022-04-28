@@ -1,0 +1,9 @@
+.footer {
+    margin-top: 0px;
+    padding-top: 0px;
+    border: red solid 3px;
+}
+
+Footer {
+    height: 100px;
+}
