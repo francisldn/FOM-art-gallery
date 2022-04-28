@@ -16,7 +16,7 @@ This is a solution to the [Art gallery website challenge on Frontend Mentor](htt
   - [Author](#author)
 ## Overview
 Users should be able to:
-- View the optimal layout for each page depending on their device's screen size - the layout is optimally configured for 2 screen sizes 
+- View the optimal layout for each page depending on their device's screen size - the layout is optimally configured for multiple screen sizes 
   - desktop: width - 1439px
   - tablet: width - 768px
   - mobile: width - 375px
@@ -49,7 +49,6 @@ For this project, 2 pages are created:
 - [React Router](https://v5.reactrouter.com/web/guides/quick-start)
 ### What I learned
 
-To see how you can add code snippets, see below:
 * CSS Grid layout
   * grid-template-columns &
   * grid-template-rows
