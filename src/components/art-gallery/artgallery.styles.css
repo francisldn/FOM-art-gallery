@@ -71,7 +71,7 @@
         display: flex;
         max-width: 260px;
         height: 72px;
-        grid-row: 8/9;
+        grid-row: 8/8;
         grid-column: 8/ 11;
         align-self: flex-end;
         justify-self: center;

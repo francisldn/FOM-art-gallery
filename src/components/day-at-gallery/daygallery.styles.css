@@ -61,15 +61,14 @@
 .gallery-3 {
     object-fit: fill;
     width: 100%;
-    height: 100%;
+    min-height: 313px;
 }
 
 .day-text-bottom {
     grid-column: 8/-1;
-    grid-row: 9/-1;
+    grid-row: 10/-1;
     background-color: var(--black-color);
     color: white;
-    margin-top: 25px;
 }
 
 .day-text-bottom h1 {
@@ -145,7 +144,7 @@
         max-height: 480px;
     }
     .gallery-3-div {
-        grid-row: 9/11;
+        grid-row: 9/10;
         grid-column: 1/-1;
         width: 100%;
         max-height: 200px;
