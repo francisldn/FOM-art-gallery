@@ -11,8 +11,8 @@ code {
 }
 
 :root {
-    --black-color: #151515;
+    --black-color: rgba(21, 21, 21, 1);
     --orange-color: #d5966c;
-    --grey-color: #444444;
+    --grey-color: rgba(68, 68, 68, 1);
     --white-color: #ffffff;
 }

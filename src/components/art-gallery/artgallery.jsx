@@ -1,6 +1,8 @@
 import * as React from 'react';
 import './artgallery.styles.css';
-import artgallery from '../../assets/desktop/image-hero.jpg';
+import artgallery_desktop from '../../assets/desktop/image-hero.jpg';
+import artgallery_mobile from '../../assets/mobile/image-hero.jpg';
+import artgallery_tablet from '../../assets/tablet/image-hero.jpg';
 import arrowRight from '../../assets/icon-arrow-right.svg';
 import {useNavigate} from 'react-router-dom';
 
@@ -31,9 +33,15 @@ return (
         </div>
         <div className="heading">MODERN <br/>ART GALLERY</div>
         <div className="art-gallery-img-div">
-          <img className="art-gallery-img" src={artgallery} alt="art-gallery"/> 
+          <picture>
+            <source media="(min-width: 800px)" srcset={artgallery_desktop}/>
+            <source media="(max-width: 799px)" srcset={artgallery_tablet}/>
+            <source media="(max-width: 400px)" srcset={artgallery_mobile}/>
+            <img className="art-gallery-img" src={artgallery_desktop} alt="art-gallery"/> 
+          </picture>
+          
           </div>
-        <p className="art-gallery-text">The arts in the collection of the Modern Art Gallery all started from a spark of inspiration. Will these pieces inspire you? Visit us and find out.</p>
+        <div className="art-gallery-text">The arts in the collection of the Modern Art Gallery all started from a spark of inspiration. Will these pieces inspire you? Visit us and find out.</div>
         
         <div className="location" onMouseOver={activeLocation} onMouseOut={inactiveLocation} onClick={()=> navigate('/location')}>
           <div className="art-gallery-location" ref={locationRef}>OUR LOCATION</div>

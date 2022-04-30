@@ -40,9 +40,9 @@
     min-width: 56px;
 }
 
-@media (max-width:768px) {}
+@media (max-width:800px) {}
 
-@media (max-width:375px) {
+@media (max-width:400px) {
     .location-back {
         grid-column: 1/3;
     }

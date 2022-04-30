@@ -13,7 +13,9 @@ export default function Home () {
     <div className="hero">
       <ArtGallery />
       <DayGallery />
-      <Footer footerStyles ={footerStyles}/>
+      <footer>
+        <Footer footerStyles ={footerStyles}/>
+      </footer>
     </div>
   );
 }

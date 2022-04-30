@@ -14,7 +14,10 @@ export default function Location () {
     <div>
       <Map />
       <LocationText />
+      <footer>
       <Footer footerStyles={footerStyles}/>
+      </footer>
+      
     </div>  
   );
 }
