@@ -124,7 +124,7 @@ cursor: pointer;
         }
         .heading {
             grid-column: 5/11;
-            grid-row: 3/4;
+            grid-row: 4/5;
             color: var(--black-color);
             text-shadow: none;
             mix-blend-mode: normal;
