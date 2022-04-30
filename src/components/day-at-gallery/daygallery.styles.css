@@ -21,7 +21,6 @@
     display: flex;
     grid-row: 3/6;
     grid-column: 1/5;
-    align-self: center;
     font-family: 'Outfit';
     font-weight: 300px;
     line-height: 32px;
@@ -61,12 +60,13 @@
 .gallery-3 {
     object-fit: fill;
     width: 100%;
-    min-height: 313px;
+    height: 313px;
 }
 
 .day-text-bottom {
     grid-column: 8/-1;
-    grid-row: 10/-1;
+    grid-row: 9/-1;
+    margin-top: 3.0rem;
     background-color: var(--black-color);
     color: white;
 }
@@ -97,6 +97,10 @@
     }
     .day-text {
         grid-row: 3/6
+    }
+    .day-text-bottom {
+        grid-row: 9/-1;
+        margin-top: 4rem;
     }
     .day-text-bottom p {
         display: flex;
