@@ -38,7 +38,7 @@
         z-index: 1;
         grid-column: 2 / 7;
         overflow: hidden;
-        grid-row: 3 /5;
+        grid-row: 4 /6;
         align-items: center;
         font-family: 'Big Shoulders Display';
         font-size: clamp(5.0rem, 2vw + 1rem, 96px);
@@ -56,7 +56,7 @@
     .art-gallery-text {
         display: flex;
         grid-column: 8 / 11;
-        grid-row: 2 / 4;
+        grid-row: 4 / 6;
         font-family: 'Outfit';
         font-size: clamp(1.0rem, 1.2vw + 0.3rem, 22px);
         font-weight: 300;
@@ -71,7 +71,7 @@
         display: flex;
         max-width: 260px;
         height: 72px;
-        grid-row: 9/10;
+        grid-row: 8/9;
         grid-column: 8/ 11;
         align-self: flex-end;
         justify-self: center;
