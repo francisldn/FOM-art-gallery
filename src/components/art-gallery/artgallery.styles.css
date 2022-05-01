@@ -110,7 +110,7 @@ cursor: pointer;
         background-color: var(--black-color);
     }
     
-    @media (max-width:800px) {
+    @media (max-width:1100px) {
         .art-gallery-left {
             display: none;
             max-height: 700px;
@@ -139,14 +139,15 @@ cursor: pointer;
             margin-left: 3rem;
         }
         .location {
-            align-self: start;
+            grid-row: 8/10;
+            align-self: flex-end;
             grid-column: 7/9;
             margin-right: 0px;
             margin-left: 2.0rem;
         }
     }
     
-    @media (max-width:400px) {
+    @media (max-width:550px) {
         .art-gallery-container {
             max-height: 630px;
         }
@@ -178,9 +179,9 @@ cursor: pointer;
         .location {
             align-self: flex-end;
             grid-row-start: -1;
-            grid-column-start: 2;
+            grid-column-start: 1;
             margin-right: 0px;
-            margin-left: 3rem;
+            margin-left: 0px;
         }
         .art-gallery-img {
             object-fit: cover;

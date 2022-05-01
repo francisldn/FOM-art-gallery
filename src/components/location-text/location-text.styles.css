@@ -54,9 +54,7 @@ h2 {
     font-family: 'Outfit';
 }
 
-@media (max-width: 800px) {}
-
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .location-container {
         display: grid;
         grid-template-columns: subgrid;
