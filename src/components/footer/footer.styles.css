@@ -31,7 +31,8 @@
 
 .footer-para {
     grid-column: 5/9;
-    font-size: clamp(0.1rem, 1.8vw + 0.1rem, 18px);
+    font-size: clamp(0.2rem, 1.5vw + 0.2rem, 22px);
+    font-family: 'Outfit';
     line-height: 28px;
 }
 
